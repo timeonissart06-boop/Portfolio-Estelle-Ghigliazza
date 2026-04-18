@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="À propos d'Estelle Ghigliazza — Étudiante architecte d'intérieur, Sophia Ynov Campus, Nice.">
+  <title>À propos — Estelle Ghigliazza</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════════ -->
+<nav class="site-nav scrolled" role="navigation" aria-label="Navigation principale">
+  <div class="site-nav__inner">
+    <a href="index.html" class="site-nav__logo" aria-label="Accueil">
+      <svg class="site-nav__logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <path d="M4 16L14 5L24 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7 13.5V23H12V17.5H16V23H21V13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="site-nav__logo-text">Estelle Ghigliazza</span>
+    </a>
+    <ul class="site-nav__links" role="list">
+      <li><a href="projects.html" class="site-nav__link">Projets</a></li>
+      <li><a href="about.html"    class="site-nav__link active">À propos</a></li>
+      <li><a href="contact.html"  class="site-nav__link">Contact</a></li>
+    </ul>
+    <button class="site-nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══ MOBILE OVERLAY ════════════════════════════════════════ -->
+<div class="nav-overlay" role="dialog" aria-modal="true">
+  <button class="nav-overlay__close" aria-label="Fermer">✕</button>
+  <nav>
+    <a href="index.html"    class="nav-overlay__link">Accueil</a>
+    <a href="projects.html" class="nav-overlay__link">Projets</a>
+    <a href="about.html"    class="nav-overlay__link">À propos</a>
+    <a href="contact.html"  class="nav-overlay__link">Contact</a>
+  </nav>
+</div>
+
+<!-- ═══ MAIN ══════════════════════════════════════════════════ -->
+<main>
+
+  <!-- EN-TÊTE -->
+  <section class="about-hero-section">
+    <div class="container">
+      <p class="page-header__eyebrow reveal-up">Présentation</p>
+      <h1 class="page-header__title reveal">
+        À pro<em>pos</em>
+      </h1>
+    </div>
+  </section>
+
+  <!-- PORTRAIT + BIO -->
+  <section class="section" style="padding-top:0;" aria-labelledby="bio-title">
+    <div class="container">
+      <div class="about-portrait-grid">
+
+        <!-- Portrait -->
+        <figure class="about-portrait-wrap reveal">
+          <img src="images/ui/portrait-estelle.jpg" alt="Portrait d'Estelle Ghigliazza" loading="lazy">
+        </figure>
+
+        <!-- Texte -->
+        <div class="about-bio">
+          <p class="section__label">Biographie</p>
+          <h2 class="section__title" id="bio-title" style="margin-bottom: var(--sp-6);">Estelle<br>Ghigliazza</h2>
+          <div class="about-bio__intro reveal">
+            <p>Étudiante en 2ème année d'architecture d'intérieur à Sophia Ynov Campus (Valbonne), j'aborde chaque projet avec patience, curiosité et créativité.</p>
+            <p>Sensible aux détails et aux ambiances, je cherche à concevoir des espaces qui font sens, en accord avec les besoins et le mode de vie de leurs occupants.</p>
+            <p>Mon travail s'appuie sur l'observation, l'expérimentation et une recherche constante d'équilibre entre esthétique et fonctionnalité.</p>
+          </div>
+
+          <div style="margin-top: var(--sp-6); display:flex; gap: var(--sp-3); flex-wrap:wrap;">
+            <a href="contact.html" class="btn reveal">Me contacter <span aria-hidden="true">→</span></a>
+            <a href="#" class="btn reveal" style="opacity:0.5; pointer-events:none;" title="Bientôt disponible">
+              <!-- TO FILL — Lien CV à compléter -->
+              Télécharger le CV
+            </a>
+          </div>
+          <!-- TO FILL — Remplacer le lien "#" du CV par l'URL réelle du document -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CITATION -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="about-quote-wrap">
+        <blockquote class="about-quote reveal">
+          « L'observation, l'expérimentation, et l'équilibre constant entre esthétique et fonctionnalité. »
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="section" aria-labelledby="skills-title">
+    <div class="container">
+      <p class="skills-title reveal-up" id="skills-title">Compétences</p>
+      <div class="skills-grid stagger-group">
+        <div class="skill-item"><span class="skill-item__text">Conception de projets</span></div>
+        <div class="skill-item"><span class="skill-item__text">Réalisation de plans techniques (2D/3D)</span></div>
+        <div class="skill-item"><span class="skill-item__text">Modélisation et rendus de présentation</span></div>
+        <div class="skill-item"><span class="skill-item__text">Mise en page de dossiers projets</span></div>
+        <div class="skill-item"><span class="skill-item__text">Préparation de présentations clients</span></div>
+        <div class="skill-item"><span class="skill-item__text">Sens du détail et respect des consignes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGICIELS -->
+  <section class="section section--alt" aria-labelledby="software-title">
+    <div class="container">
+      <p class="skills-title reveal-up" id="software-title">Logiciels</p>
+      <div class="software-grid stagger-group">
+        <div class="software-item">
+          <span class="software-item__name">InDesign</span>
+          <span class="software-item__usage">Mise en page</span>
+        </div>
+        <div class="software-item">
+          <span class="software-item__name">AutoCAD</span>
+          <span class="software-item__usage">Plans techniques</span>
+        </div>
+        <div class="software-item">
+          <span class="software-item__name">SketchUp</span>
+          <span class="software-item__usage">Modélisation 3D</span>
+        </div>
+        <div class="software-item">
+          <span class="software-item__name">Archicad</span>
+          <span class="software-item__usage">Modélisation 3D</span>
+        </div>
+        <div class="software-item">
+          <span class="software-item__name">Lumion</span>
+          <span class="software-item__usage">Rendu 3D</span>
+        </div>
+        <div class="software-item">
+          <span class="software-item__name">Photoshop</span>
+          <span class="software-item__usage">Retouches</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATIONS -->
+  <section class="section" aria-labelledby="edu-title">
+    <div class="container" style="max-width:900px;">
+      <p class="skills-title reveal-up" id="edu-title">Formations</p>
+      <ol class="education-list" style="list-style:none;">
+        <li class="education-item reveal">
+          <span class="education-item__date">Sept. 2024 — 2026</span>
+          <div>
+            <p class="education-item__name">Sophia Ynov Campus — Architecture d'intérieur</p>
+            <p class="education-item__detail">2ème année · Valbonne (Alpes-Maritimes)</p>
+          </div>
+        </li>
+        <li class="education-item reveal">
+          <span class="education-item__date">Juin 2024</span>
+          <div>
+            <p class="education-item__name">Baccalauréat professionnel Commerce</p>
+            <p class="education-item__detail">Obtention du diplôme</p>
+          </div>
+        </li>
+      </ol>
+
+      <!-- LANGUES -->
+      <p class="skills-title reveal-up" style="margin-top: var(--sp-8);">Langues</p>
+      <ul class="languages-grid stagger-group">
+        <li class="language-item">
+          <span class="language-item__name">Français</span>
+          <span class="language-item__level">Langue maternelle</span>
+        </li>
+        <li class="language-item">
+          <span class="language-item__name">Anglais</span>
+          <span class="language-item__level">Intermédiaire</span>
+        </li>
+        <li class="language-item">
+          <span class="language-item__name">Espagnol</span>
+          <span class="language-item__level">Notions</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══ FOOTER ═════════════════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="site-footer__inner">
+      <nav class="site-footer__nav" aria-label="Navigation secondaire">
+        <a href="projects.html" class="site-footer__link">Projets</a>
+        <a href="about.html"    class="site-footer__link">À propos</a>
+        <a href="contact.html"  class="site-footer__link">Contact</a>
+      </nav>
+      <div class="site-footer__logo">
+        <svg class="site-footer__logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 16L14 5L24 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7 13.5V23H12V17.5H16V23H21V13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="site-footer__name">Estelle Ghigliazza</span>
+      </div>
+      <p class="site-footer__copy">© 2026 — Architecte d'intérieur</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

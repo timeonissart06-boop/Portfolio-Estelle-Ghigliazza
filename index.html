@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estelle Ghigliazza — Architecte d'intérieur. Portfolio 2026. Projets résidentiels, commerciaux et conceptuels.">
+  <title>Estelle Ghigliazza — Architecte d'intérieur</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 18L16 6l12 12' stroke='%232C2318' stroke-width='1.5' fill='none'/><path d='M7 15v11h6v-6h6v6h6V15' stroke='%232C2318' stroke-width='1.5' fill='none'/></svg>">
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════════ -->
+<nav class="site-nav" role="navigation" aria-label="Navigation principale">
+  <div class="site-nav__inner">
+    <a href="index.html" class="site-nav__logo" aria-label="Accueil">
+      <svg class="site-nav__logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <path d="M4 16L14 5L24 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7 13.5V23H12V17.5H16V23H21V13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="site-nav__logo-text">Estelle Ghigliazza</span>
+    </a>
+    <ul class="site-nav__links" role="list">
+      <li><a href="projects.html" class="site-nav__link">Projets</a></li>
+      <li><a href="about.html" class="site-nav__link">À propos</a></li>
+      <li><a href="contact.html" class="site-nav__link">Contact</a></li>
+    </ul>
+    <button class="site-nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══ MOBILE OVERLAY ════════════════════════════════════════ -->
+<div class="nav-overlay" role="dialog" aria-modal="true" aria-label="Menu de navigation">
+  <button class="nav-overlay__close" aria-label="Fermer">✕</button>
+  <nav>
+    <a href="index.html"    class="nav-overlay__link">Accueil</a>
+    <a href="projects.html" class="nav-overlay__link">Projets</a>
+    <a href="about.html"    class="nav-overlay__link">À propos</a>
+    <a href="contact.html"  class="nav-overlay__link">Contact</a>
+  </nav>
+</div>
+
+<!-- ═══ HERO ══════════════════════════════════════════════════ -->
+<section class="hero" aria-label="Introduction">
+  <!-- Deco -->
+  <svg class="deco-lines deco-lines--bl" viewBox="0 0 220 220" fill="none" aria-hidden="true">
+    <path d="M0,200 C40,170 90,185 140,165 S190,130 220,140" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,185 C45,155 95,170 145,150 S195,115 220,125" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,170 C50,140 100,155 150,135 S200,100 220,110" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,155 C55,125 105,140 155,120 S205,85 220,95" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,140 C60,110 110,125 160,105 S210,70 220,80" stroke="#C4B8AC" stroke-width="1"/>
+  </svg>
+
+  <div class="hero__left">
+    <span class="hero__script" aria-hidden="true">Mon</span>
+    <h1 class="hero__name">Estelle<br>Ghigliazza</h1>
+    <p class="hero__tagline">
+      <span class="hero__tagline-line" aria-hidden="true"></span>
+      Architecte d'intérieur
+      <span class="hero__tagline-line" aria-hidden="true"></span>
+    </p>
+    <p class="hero__bio">Sensible aux détails et aux ambiances, je conçois des espaces qui font sens — en accord avec les besoins et le mode de vie de leurs occupants.</p>
+    <a href="projects.html" class="hero__cta">
+      Découvrir les projets
+      <span class="hero__cta-arrow" aria-hidden="true">→</span>
+    </a>
+  </div>
+
+  <div class="hero__right" aria-hidden="true">
+    <img
+      class="hero__right-img"
+      src="images/projects/the-floating-house/floating-house-exterieur.jpg"
+      alt="The Floating House — vue extérieure"
+      loading="eager"
+      fetchpriority="high"
+    >
+    <span class="hero__right-label">The Floating House, Thaïlande</span>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">Défiler</div>
+</section>
+
+<!-- ═══ PROJETS SÉLECTIONNÉS ══════════════════════════════════ -->
+<section class="section" aria-labelledby="featured-title">
+  <div class="container">
+    <header class="section__header">
+      <p class="section__label">Projets sélectionnés</p>
+      <h2 class="section__title" id="featured-title">Un regard sur le travail</h2>
+    </header>
+
+    <div class="featured-grid stagger-group">
+      <!-- Card 1 -->
+      <a href="projects/villa-soquet.html" class="project-card" aria-label="Villa Soquet — Rénovation résidentielle">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/villa-soquet/villa-soquet-salon.jpg" alt="Villa Soquet — Salon" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Rénovation résidentielle</p>
+              <p class="project-card__overlay-title">Villa Soquet</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Résidentiel · 200 m²</p>
+          <p class="project-card__title">Villa Soquet</p>
+        </div>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="projects/la-dolce-vita.html" class="project-card" aria-label="La Dolce Vita — Rénovation restaurant">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/la-dolce-vita/dolce-vita-restauration-01.jpg" alt="La Dolce Vita — Salle de restauration" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Rénovation commercial</p>
+              <p class="project-card__overlay-title">La Dolce Vita</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Commercial · Restaurant</p>
+          <p class="project-card__title">La Dolce Vita</p>
+        </div>
+      </a>
+
+      <!-- Card 3 -->
+      <a href="projects/the-floating-house.html" class="project-card" aria-label="The Floating House — Cabane dans les arbres">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/the-floating-house/floating-house-vue-cascade.jpg" alt="The Floating House — Vue sur la cascade" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Concept · Thaïlande</p>
+              <p class="project-card__overlay-title">The Floating House</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Concept · Cabane</p>
+          <p class="project-card__title">The Floating House</p>
+        </div>
+      </a>
+    </div>
+
+    <div style="text-align:center; margin-top: 3rem;">
+      <a href="projects.html" class="link-arrow reveal">
+        Voir tous les projets <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ À PROPOS — TEASER ══════════════════════════════════════ -->
+<section class="section section--alt" aria-labelledby="about-teaser-title">
+  <div class="container">
+    <div class="about-teaser">
+      <div class="about-teaser__img-wrap reveal">
+        <img class="about-teaser__img" src="images/ui/portrait-estelle.jpg" alt="Portrait d'Estelle Ghigliazza" loading="lazy">
+      </div>
+      <div class="about-teaser__text">
+        <p class="section__label about-teaser__label">À propos</p>
+        <h2 class="section__title" id="about-teaser-title" style="margin-bottom: var(--sp-4);">Patience,<br>curiosité,<br><em style="font-style:italic; color:var(--stone);">créativité.</em></h2>
+        <p class="about-teaser__quote reveal">
+          Étudiante architecte d'intérieur, j'aborde chaque projet avec patience, curiosité et créativité. Je cherche à concevoir des espaces qui font sens, en accord avec les besoins et le mode de vie de leurs occupants.
+        </p>
+        <a href="about.html" class="link-arrow reveal">
+          En savoir plus <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═════════════════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="site-footer__inner">
+      <nav class="site-footer__nav" aria-label="Navigation secondaire">
+        <a href="projects.html" class="site-footer__link">Projets</a>
+        <a href="about.html"    class="site-footer__link">À propos</a>
+        <a href="contact.html"  class="site-footer__link">Contact</a>
+      </nav>
+      <div class="site-footer__logo">
+        <svg class="site-footer__logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 16L14 5L24 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7 13.5V23H12V17.5H16V23H21V13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="site-footer__name">Estelle Ghigliazza</span>
+      </div>
+      <p class="site-footer__copy">© 2026 — Architecte d'intérieur</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

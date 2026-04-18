@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projets d'Estelle Ghigliazza — Architecte d'intérieur. Rénovations résidentielles, commerciales et projets conceptuels.">
+  <title>Projets — Estelle Ghigliazza</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════════ -->
+<nav class="site-nav scrolled" role="navigation" aria-label="Navigation principale">
+  <div class="site-nav__inner">
+    <a href="index.html" class="site-nav__logo" aria-label="Accueil">
+      <svg class="site-nav__logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <path d="M4 16L14 5L24 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7 13.5V23H12V17.5H16V23H21V13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="site-nav__logo-text">Estelle Ghigliazza</span>
+    </a>
+    <ul class="site-nav__links" role="list">
+      <li><a href="projects.html" class="site-nav__link active">Projets</a></li>
+      <li><a href="about.html"    class="site-nav__link">À propos</a></li>
+      <li><a href="contact.html"  class="site-nav__link">Contact</a></li>
+    </ul>
+    <button class="site-nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══ MOBILE OVERLAY ════════════════════════════════════════ -->
+<div class="nav-overlay" role="dialog" aria-modal="true">
+  <button class="nav-overlay__close" aria-label="Fermer">✕</button>
+  <nav>
+    <a href="index.html"    class="nav-overlay__link">Accueil</a>
+    <a href="projects.html" class="nav-overlay__link">Projets</a>
+    <a href="about.html"    class="nav-overlay__link">À propos</a>
+    <a href="contact.html"  class="nav-overlay__link">Contact</a>
+  </nav>
+</div>
+
+<!-- ═══ PAGE HEADER ══════════════════════════════════════════ -->
+<header class="page-header" style="position:relative; overflow:hidden;">
+  <div class="container">
+    <p class="page-header__eyebrow reveal-up">Portfolio 2026</p>
+    <h1 class="page-header__title reveal">
+      Pro<em>jets</em>
+    </h1>
+    <p class="page-header__sub reveal-up">
+      Rénovations résidentielles et commerciales, projets conceptuels, dessins à la main.
+    </p>
+  </div>
+  <svg class="deco-lines deco-lines--tr" viewBox="0 0 220 220" fill="none" aria-hidden="true" style="position:absolute; top:0; right:0;">
+    <path d="M0,200 C40,170 90,185 140,165 S190,130 220,140" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,185 C45,155 95,170 145,150 S195,115 220,125" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,170 C50,140 100,155 150,135 S200,100 220,110" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,155 C55,125 105,140 155,120 S205,85 220,95" stroke="#C4B8AC" stroke-width="1"/>
+    <path d="M0,140 C60,110 110,125 160,105 S210,70 220,80" stroke="#C4B8AC" stroke-width="1"/>
+  </svg>
+</header>
+
+<!-- ═══ GRILLE DE PROJETS ══════════════════════════════════════ -->
+<main class="section" style="padding-top: var(--sp-8);">
+  <div class="container">
+    <div class="projects-index-grid">
+
+      <!-- 1. Villa Soquet -->
+      <a href="projects/villa-soquet.html" class="project-card" aria-label="Villa Soquet">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/villa-soquet/villa-soquet-salon.jpg" alt="Villa Soquet — Salon" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Rénovation résidentielle · 200 m²</p>
+              <p class="project-card__overlay-title">Villa Soquet</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Résidentiel · Colocation étudiante</p>
+          <p class="project-card__title">Villa Soquet</p>
+        </div>
+      </a>
+
+      <!-- 2. La Dolce Vita -->
+      <a href="projects/la-dolce-vita.html" class="project-card" aria-label="La Dolce Vita">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/la-dolce-vita/dolce-vita-restauration-01.jpg" alt="La Dolce Vita — Salle de restauration" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Rénovation commerciale · Restaurant</p>
+              <p class="project-card__overlay-title">La Dolce Vita</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Commercial · Restaurant</p>
+          <p class="project-card__title">La Dolce Vita</p>
+        </div>
+      </a>
+
+      <!-- 3. The Floating House -->
+      <a href="projects/the-floating-house.html" class="project-card" aria-label="The Floating House">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/the-floating-house/floating-house-exterieur.jpg" alt="The Floating House — Vue extérieure" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Concept · Thaïlande</p>
+              <p class="project-card__overlay-title">The Floating House</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Concept · Cabane dans les arbres</p>
+          <p class="project-card__title">The Floating House</p>
+        </div>
+      </a>
+
+      <!-- 4. Dessins & Perspectives -->
+      <a href="projects/dessins-et-perspectives.html" class="project-card" aria-label="Dessins et Perspectives">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/dessins/croquis-boutique-ulla.jpg" alt="Croquis — Boutique Ulla" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Dessins à la main · Perspectives</p>
+              <p class="project-card__overlay-title">Dessins &amp; Perspectives</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Croquis · Aquarelle</p>
+          <p class="project-card__title">Dessins &amp; Perspectives</p>
+        </div>
+      </a>
+
+      <!-- 5. Atelier Graffiti -->
+      <a href="projects/atelier-graffiti.html" class="project-card" aria-label="Atelier Graffiti Yfabrick">
+        <div class="project-card__img-wrap">
+          <img class="project-card__img" src="images/projects/graffiti/graffiti-ensemble.jpg" alt="Atelier Graffiti Yfabrick" loading="lazy">
+          <div class="project-card__overlay">
+            <div class="project-card__overlay-inner">
+              <p class="project-card__overlay-cat">Activité culturelle · Street art</p>
+              <p class="project-card__overlay-title">Atelier Graffiti</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card__meta">
+          <p class="project-card__cat">Activité culturelle · Yfabrick</p>
+          <p class="project-card__title">Atelier Graffiti</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</main>
+
+<!-- ═══ FOOTER ═════════════════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="site-footer__inner">
+      <nav class="site-footer__nav" aria-label="Navigation secondaire">
+        <a href="projects.html" class="site-footer__link">Projets</a>
+        <a href="about.html"    class="site-footer__link">À propos</a>
+        <a href="contact.html"  class="site-footer__link">Contact</a>
+      </nav>
+      <div class="site-footer__logo">
+        <svg class="site-footer__logo-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 16L14 5L24 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7 13.5V23H12V17.5H16V23H21V13.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="site-footer__name">Estelle Ghigliazza</span>
+      </div>
+      <p class="site-footer__copy">© 2026 — Architecte d'intérieur</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
