@@ -137,10 +137,10 @@ if (projectHeroImg) {
 }
 
 /* ─── HOME HERO PARALLAX ────────────────────────────────────── */
-const heroRightImg = document.querySelector('.hero__right-img');
-if (heroRightImg) {
-  gsap.to(heroRightImg, {
-    y: '12%',
+const heroReel = document.querySelector('.hero-reel');
+if (heroReel) {
+  gsap.to(heroReel, {
+    y: '10%',
     ease: 'none',
     scrollTrigger: {
       trigger: '.hero',
